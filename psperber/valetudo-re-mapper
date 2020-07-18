@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>Valetudo RE mapper</Name>
+  <Category>HomeAutomation:Other Other:</Category>
+  <Support>https://github.com/psperber/unraid-docker-templates/issues</Support>
+  <Description>Valetudo RE - experimental vacuum software, cloud free</Description>
+  <Registry>https://hub.docker.com/r/rand256/valetudo-mapper/</Registry>
+  <GitHub>https://github.com/psperber/unraid-docker-templates</GitHub>
+  <Repository>rand256/valetudo-mapper:latest</Repository>
+  <Beta>False</Beta>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>3000</HostPort>
+        <ContainerPort>3000</ContainerPort>
+        <Protocol>tcp</Protocol>
+        <Name>TCP Port</Name>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/valetudo-mapper/config.json</HostDir>
+      <ContainerDir>/app/config.json</ContainerDir>
+      <Mode>ro</Mode>
+    </Volume>
+  </Data>
+  <Banner>https://i.imgur.com/iY6Lc6b.png</Banner>
+  <Icon>https://i.imgur.com/iY6Lc6b.png</Icon>
+</Container>
