@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Beta>False</Beta>
+<Category>Network:Other Other:</Category>
+<Date>2020-07-18</Date>
+  <Changes>
+  CHANGES
+  </Changes>
+  <Support>https://github.com/psperber/unraid-docker-templates/issues</Support>
+  <Name>unbound</Name>
+  <Description>
+    DESCRIPTION
+  </Description>
+  <Registry>https://hub.docker.com/r/mvance/unbound/</Registry>
+  <GitHub>https://github.com/psperber/unraid-docker-templates</GitHub>
+  <Repository>pihole/pihole:latest</Repository>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>53</HostPort>
+        <ContainerPort>53</ContainerPort>
+        <Protocol>tcp</Protocol>
+        <Name>TCP Port</Name>
+      </Port>
+      <Port>
+        <HostPort>53</HostPort>
+        <ContainerPort>53</ContainerPort>
+        <Protocol>udp</Protocol>
+        <Name>UDP Port</Name>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/cache/appdata/unbound/</HostDir>
+      <ContainerDir>/opt/unbound/etc/unbound/</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+</Container>
