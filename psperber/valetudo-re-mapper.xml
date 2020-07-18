@@ -24,7 +24,7 @@
     <Volume>
       <HostDir>/mnt/user/appdata/valetudo-mapper/config.json</HostDir>
       <ContainerDir>/app/config.json</ContainerDir>
-      <Mode>ro</Mode>
+      <Mode>rw</Mode>
     </Volume>
   </Data>
   <Banner>https://i.imgur.com/iY6Lc6b.png</Banner>
