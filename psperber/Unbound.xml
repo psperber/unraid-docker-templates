@@ -13,7 +13,7 @@
   </Description>
   <Registry>https://hub.docker.com/r/mvance/unbound/</Registry>
   <GitHub>https://github.com/psperber/unraid-docker-templates</GitHub>
-  <Repository>pihole/pihole:latest</Repository>
+  <Repository>mvance/unbound:latest</Repository>
   <Privileged>false</Privileged>
   <Networking>
     <Mode>bridge</Mode>
