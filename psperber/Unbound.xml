@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
   <Beta>False</Beta>
-<Category>Network:Other Other:</Category>
-<Date>2020-07-18</Date>
+  <Category>Network:Other Other:</Category>
+  <Date>2020-07-18</Date>
   <Changes>
   CHANGES
   </Changes>
@@ -39,4 +39,6 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
+  <Banner>https://i.imgur.com/OzbEF3l.png</Banner>
+  <Icon>https://i.imgur.com/OzbEF3l.png</Icon>
 </Container>
