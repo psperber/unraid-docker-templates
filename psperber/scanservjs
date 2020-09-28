@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>SANE scanner nodejs web ui</Name>
+  <Category>Productivity:Other Tools:Utilities Other:</Category>
+  <Support>https://github.com/psperber/unraid-docker-templates/issues</Support>
+  <Description>SANE scanner nodejs web ui</Description>
+  <Registry>https://hub.docker.com/r/sbs20/scanservjs/</Registry>
+  <GitHub>https://github.com/psperber/unraid-docker-templates</GitHub>
+  <Repository>sbs20/scanservjs:latest</Repository>
+  <Beta>False</Beta>
+  <Privileged>true</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8080</HostPort>
+        <ContainerPort>8080</ContainerPort>
+        <Protocol>tcp</Protocol>
+        <Name>TCP Port</Name>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/scanservjs</HostDir>
+      <ContainerDir>/tmp/scanservjs</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+</Container>
