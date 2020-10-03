@@ -3,6 +3,7 @@
   <Name>SANE scanner nodejs web ui</Name>
   <Category>Productivity:Other Tools:Utilities Other:</Category>
   <Support>https://github.com/psperber/unraid-docker-templates/issues</Support>
+  <Name>scanservjs</Name>
   <Description>SANE scanner nodejs web ui</Description>
   <Registry>https://hub.docker.com/r/sbs20/scanservjs/</Registry>
   <GitHub>https://github.com/psperber/unraid-docker-templates</GitHub>
@@ -20,11 +21,11 @@
       </Port>
     </Publish>
   </Networking>
-  <Data>
-    <Volume>
-      <HostDir>/mnt/user/appdata/scanservjs</HostDir>
-      <ContainerDir>/tmp/scanservjs</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-  </Data>
+  <Environment>
+    <Variable>
+      <Value/>
+      <Name>NET_HOST</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
 </Container>
