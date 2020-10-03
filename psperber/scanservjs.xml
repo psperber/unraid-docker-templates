@@ -8,6 +8,7 @@
   <Registry>https://hub.docker.com/r/sbs20/scanservjs/</Registry>
   <GitHub>https://github.com/psperber/unraid-docker-templates</GitHub>
   <Repository>sbs20/scanservjs:latest</Repository>
+  <WebUI>http://[IP]:[PORT:8080]</WebUI>
   <Beta>False</Beta>
   <Privileged>true</Privileged>
   <Networking>
