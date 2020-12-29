@@ -35,7 +35,7 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/cache/appdata/unbound/</HostDir>
+      <HostDir>/mnt/user/appdata/unbound/</HostDir>
       <ContainerDir>/opt/unbound/etc/unbound/</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
