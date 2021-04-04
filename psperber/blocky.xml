@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Beta>False</Beta>
+  <Category>Network:Other Other:</Category>
+  <Date>2020-07-18</Date>
+  <Changes>
+  [center][font size=4]blocky Change Log[/font][/center]
+  [b]APR.2021:[/b]First version of this template[br][br]
+  </Changes>
+  <Support>https://github.com/psperber/unraid-docker-templates/issues</Support>
+  <Name>unbound</Name>
+  <Description>
+    Fast and lightweight DNS proxy as ad-blocker for local network with many features
+  </Description>
+  <Registry>https://hub.docker.com/r/spx01/blocky/</Registry>
+  <GitHub>https://github.com/psperber/unraid-docker-templates</GitHub>
+  <Repository>spx01/blocky:latest</Repository>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>53</HostPort>
+        <ContainerPort>53</ContainerPort>
+        <Protocol>tcp</Protocol>
+        <Name>TCP Port</Name>
+      </Port>
+      <Port>
+        <HostPort>53</HostPort>
+        <ContainerPort>53</ContainerPort>
+        <Protocol>udp</Protocol>
+        <Name>UDP Port</Name>
+      </Port>
+      <Port>
+        <HostPort>4000</HostPort>
+        <ContainerPort>4000</ContainerPort>
+        <Protocol>tcp</Protocol>
+        <Name>TCP Port</Name>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/blocky/config.yml</HostDir>
+      <ContainerDir>/app/config.yml</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/user/appdata/blocky/blacklists</HostDir>
+      <ContainerDir>/app/blacklists</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/user/appdata/blocky/whitelists</HostDir>
+      <ContainerDir>/app/whitelists</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Banner>https://i.imgur.com/BRuMZRM.png</Banner>
+  <Icon>https://i.imgur.com/BRuMZRM.png</Icon>
+</Container>
