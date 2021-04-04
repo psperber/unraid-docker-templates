@@ -8,7 +8,7 @@
   [b]APR.2021:[/b]First version of this template[br][br]
   </Changes>
   <Support>https://github.com/psperber/unraid-docker-templates/issues</Support>
-  <Name>unbound</Name>
+  <Name>blocky</Name>
   <Description>
     Fast and lightweight DNS proxy as ad-blocker for local network with many features
   </Description>
