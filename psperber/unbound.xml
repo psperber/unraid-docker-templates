@@ -2,16 +2,10 @@
 <Container>
   <Beta>False</Beta>
   <Category>Network:Other Other:</Category>
-  <Date>2020-07-18</Date>
-  <Changes>
-  [center][font size=4]unbound Change Log[/font][/center]
-  [b]JUL.2023:[/b]First version of this template[br][br]
-  </Changes>
+  <Date>2021-04-23</Date>
   <Support>https://github.com/psperber/unraid-docker-templates/issues</Support>
   <Name>unbound</Name>
-  <Description>
-    Unbound is a validating, recursive, and caching DNS resolver.
-  </Description>
+  <Description>Unbound is a validating, recursive, and caching DNS resolver.</Description>
   <Registry>https://hub.docker.com/r/mvance/unbound/</Registry>
   <GitHub>https://github.com/psperber/unraid-docker-templates</GitHub>
   <Repository>mvance/unbound:latest</Repository>
@@ -40,6 +34,7 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <Banner>https://i.imgur.com/OzbEF3l.png</Banner>
-  <Icon>https://i.imgur.com/OzbEF3l.png</Icon>
+  <Banner>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/psperber/img/unbound.png</Banner>
+  <Icon>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/psperber/img/unbound.png</Icon>
+  <TemplateURL>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/psperber/unbound.xml</TemplateURL>
 </Container>

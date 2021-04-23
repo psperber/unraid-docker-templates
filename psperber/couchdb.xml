@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Beta>False</Beta>
+  <Category>Network:Other MediaApp:Other Other: Tools:</Category>
+  <Date>2021-04-23</Date>
+  <Support>https://github.com/psperber/unraid-docker-templates/issues</Support>
+  <Name>couchdb</Name>
+  <Description>CouchDB is a database that uses JSON for documents, an HTTP API, &amp;amp; JavaScript/declarative indexing.</Description>
+  <Repository>couchdb:latest</Repository>
+  <Registry>https://hub.docker.com/_/couchdb</Registry>
+  <GitHub>https://github.com/psperber/unraid-docker-templates</GitHub>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>5984</HostPort>
+        <ContainerPort>5984</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/couchdb/data</HostDir>
+      <ContainerDir>/opt/couchdb/data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/user/appdata/couchdb/etc</HostDir>
+      <ContainerDir>/opt/couchdb/etc/local.d</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Banner>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/psperber/img/couchdb.png</Banner>
+  <Icon>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/psperber/img/couchdb.png</Icon>
+  <TemplateURL>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/psperber/couchdb.xml</TemplateURL>
+</Container>

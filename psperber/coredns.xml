@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Beta>False</Beta>
+  <Category>Network:Other Other:</Category>
+  <Date>2021-04-23</Date>
+  <Support>https://github.com/psperber/unraid-docker-templates/issues</Support>
+  <Name>coredns</Name>
+  <Description>CoreDNS is a DNS server. It is written in Go. It can be used in a multitude of environments because of its flexibility. CoreDNS is licensed under the Apache License Version 2, and completely open source.</Description>
+  <Repository>coredns/coredns:latest</Repository>
+  <Registry>https://hub.docker.com/r/coredns/coredns/</Registry>
+  <GitHub>https://github.com/psperber/unraid-docker-templates</GitHub>
+  <Privileged>false</Privileged>
+  <PostArgs>-conf /config/Corefile</PostArgs>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>53</HostPort>
+        <ContainerPort>53</ContainerPort>
+        <Protocol>tcp</Protocol>
+        <Name>TCP Port</Name>
+      </Port>
+      <Port>
+        <HostPort>53</HostPort>
+        <ContainerPort>53</ContainerPort>
+        <Protocol>udp</Protocol>
+        <Name>UDP Port</Name>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/coredns</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>ro</Mode>
+    </Volume>
+  </Data>
+  <Banner>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/psperber/img/coredns.png</Banner>
+  <Icon>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/psperber/img/coredns.png</Icon>
+  <TemplateURL>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/psperber/coredns.xml</TemplateURL>
+</Container>

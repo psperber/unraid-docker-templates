@@ -2,6 +2,7 @@
 <Container>
   <Name>Valetudo RE mapper</Name>
   <Category>HomeAutomation:Other Other:</Category>
+  <Date>2021-04-23</Date>
   <Support>https://github.com/psperber/unraid-docker-templates/issues</Support>
   <Description>Valetudo RE - experimental vacuum software, cloud free</Description>
   <Registry>https://hub.docker.com/r/rand256/valetudo-mapper/</Registry>
@@ -27,6 +28,7 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <Banner>https://i.imgur.com/iY6Lc6b.png</Banner>
-  <Icon>https://i.imgur.com/iY6Lc6b.png</Icon>
+  <Banner>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/psperber/img/valetudo-re-mapper.png</Banner>
+  <Icon>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/psperber/img/valetudo-re-mapper.png</Icon>
+  <TemplateURL>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/psperber/valetudo-re-mapper.xml</TemplateURL>
 </Container>

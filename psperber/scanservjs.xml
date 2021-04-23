@@ -2,6 +2,7 @@
 <Container>
   <Name>SANE scanner nodejs web ui</Name>
   <Category>Productivity:Other Tools:Utilities Other:</Category>
+  <Date>2021-04-23</Date>
   <Support>https://github.com/psperber/unraid-docker-templates/issues</Support>
   <Name>scanservjs</Name>
   <Description>SANE scanner nodejs web ui</Description>
@@ -29,4 +30,5 @@
       <Mode/>
     </Variable>
   </Environment>
+  <TemplateURL>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/psperber/scanservjs.xml</TemplateURL>
 </Container>

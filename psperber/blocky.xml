@@ -2,16 +2,10 @@
 <Container>
   <Beta>False</Beta>
   <Category>Network:Other Other:</Category>
-  <Date>2020-07-18</Date>
-  <Changes>
-  [center][font size=4]blocky Change Log[/font][/center]
-  [b]APR.2021:[/b]First version of this template[br][br]
-  </Changes>
+  <Date>2021-04-23</Date>
   <Support>https://github.com/psperber/unraid-docker-templates/issues</Support>
   <Name>blocky</Name>
-  <Description>
-    Fast and lightweight DNS proxy as ad-blocker for local network with many features
-  </Description>
+  <Description>Fast and lightweight DNS proxy as ad-blocker for local network with many features</Description>
   <Registry>https://hub.docker.com/r/spx01/blocky/</Registry>
   <GitHub>https://github.com/psperber/unraid-docker-templates</GitHub>
   <Repository>spx01/blocky:latest</Repository>
@@ -56,6 +50,7 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <Banner>https://i.imgur.com/BRuMZRM.png</Banner>
-  <Icon>https://i.imgur.com/BRuMZRM.png</Icon>
+  <Banner>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/psperber/img/blocky.png</Banner>
+  <Icon>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/psperber/img/blocky.png</Icon>
+  <TemplateURL>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/psperber/blocky.xml</TemplateURL>
 </Container>
