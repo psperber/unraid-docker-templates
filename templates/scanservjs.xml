@@ -30,5 +30,5 @@
       <Mode/>
     </Variable>
   </Environment>
-  <TemplateURL>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/psperber/scanservjs.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/templates/scanservjs.xml</TemplateURL>
 </Container>

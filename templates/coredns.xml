@@ -35,7 +35,7 @@
       <Mode>ro</Mode>
     </Volume>
   </Data>
-  <Banner>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/psperber/img/coredns.png</Banner>
-  <Icon>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/psperber/img/coredns.png</Icon>
-  <TemplateURL>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/psperber/coredns.xml</TemplateURL>
+  <Banner>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/templates/img/coredns.png</Banner>
+  <Icon>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/templates/img/coredns.png</Icon>
+  <TemplateURL>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/templates/coredns.xml</TemplateURL>
 </Container>

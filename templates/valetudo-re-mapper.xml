@@ -28,7 +28,7 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <Banner>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/psperber/img/valetudo-re-mapper.png</Banner>
-  <Icon>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/psperber/img/valetudo-re-mapper.png</Icon>
-  <TemplateURL>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/psperber/valetudo-re-mapper.xml</TemplateURL>
+  <Banner>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/templates/img/valetudo-re-mapper.png</Banner>
+  <Icon>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/templates/img/valetudo-re-mapper.png</Icon>
+  <TemplateURL>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/templates/valetudo-re-mapper.xml</TemplateURL>
 </Container>

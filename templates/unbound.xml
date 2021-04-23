@@ -34,7 +34,7 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <Banner>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/psperber/img/unbound.png</Banner>
-  <Icon>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/psperber/img/unbound.png</Icon>
-  <TemplateURL>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/psperber/unbound.xml</TemplateURL>
+  <Banner>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/templates/img/unbound.png</Banner>
+  <Icon>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/templates/img/unbound.png</Icon>
+  <TemplateURL>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/templates/unbound.xml</TemplateURL>
 </Container>

@@ -32,7 +32,7 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <Banner>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/psperber/img/couchdb.png</Banner>
-  <Icon>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/psperber/img/couchdb.png</Icon>
-  <TemplateURL>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/psperber/couchdb.xml</TemplateURL>
+  <Banner>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/templates/img/couchdb.png</Banner>
+  <Icon>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/templates/img/couchdb.png</Icon>
+  <TemplateURL>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/templates/couchdb.xml</TemplateURL>
 </Container>

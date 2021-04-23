@@ -50,7 +50,7 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <Banner>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/psperber/img/blocky.png</Banner>
-  <Icon>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/psperber/img/blocky.png</Icon>
-  <TemplateURL>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/psperber/blocky.xml</TemplateURL>
+  <Banner>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/templates/img/blocky.png</Banner>
+  <Icon>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/templates/img/blocky.png</Icon>
+  <TemplateURL>https://raw.githubusercontent.com/psperber/unraid-docker-templates/master/templates/blocky.xml</TemplateURL>
 </Container>
